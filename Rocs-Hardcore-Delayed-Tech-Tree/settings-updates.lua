@@ -34,11 +34,18 @@ data:extend({
 		name = "rocs-hardcore-z-infinite-tech-blacklist",
 		allow_blank = true,
 		setting_type = "startup",
-		default_value = "heath, rocket-part-productivity",
+		default_value = "health, follower-robot-count",
+		hidden = true
 	},
 	{
 		type = "bool-setting",
 		name = "rocs-hardcore-push-back-night-vision-equipment",
+		setting_type = "startup",
+		default_value = true,
+	},
+	{
+		type = "bool-setting",
+		name = "rocs-hardcore-allow-mods-change-settings",
 		setting_type = "startup",
 		default_value = true,
 	},
