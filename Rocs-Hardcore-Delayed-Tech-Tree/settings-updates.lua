@@ -30,6 +30,14 @@ data:extend({
 		default_value = true,
 	},
 	{
+		type = "string-setting",
+		name = "rocs-hardcore-z-infinite-tech-blacklist",
+		allow_blank = true,
+		setting_type = "startup",
+		default_value = "health, follower-robot-count",
+		hidden = true
+	},
+	{
 		type = "bool-setting",
 		name = "rocs-hardcore-push-back-night-vision-equipment",
 		setting_type = "startup",
